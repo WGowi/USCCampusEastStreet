@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../spider/usc_sunshine/.idea/usc_sunshine.iml" filepath="$PROJECT_DIR$/../spider/usc_sunshine/.idea/usc_sunshine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wx_miniapp_end.iml" filepath="$PROJECT_DIR$/.idea/wx_miniapp_end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spider/yzw/.idea/yzw.iml" filepath="$PROJECT_DIR$/../spider/yzw/.idea/yzw.iml" />
+    </modules>
+  </component>
+</project>

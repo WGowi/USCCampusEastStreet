@@ -1,0 +1,9 @@
+<view class="info">
+    <view class="title">标题：</view>
+    <view class="description">描述：</view>
+    <view class="contact">联系人：</view>
+    <view class="tel">联系方式：</view>
+    <view class="find_or_lost_address">遗失地点：</view>
+    <view class="find_or_lost_time">遗失时间：</view>
+    <view class="black_address">交还地点：</view>
+</view>

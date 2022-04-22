@@ -1,0 +1,22 @@
+<HdView></HdView>
+<view class="section">
+    <view class="section__title">学科门类:</view>
+    <picker bindchange="bindDisciplineChange" value="{{disciplineIndex}}" range="{{disciplineArray}}">
+        <view class="picker">
+            当前选择：{{disciplineArray[disciplineIndex]}}
+        </view>
+    </picker>
+</view>
+
+<view class="section">
+    <view class="section__title">学科类别:</view>
+    <picker bindchange="bindSubjectChange" value="{{subjectIndex}}" range="{{subjectArray}}">
+        <view class="picker">
+            当前选择：{{subjectArray[subjectIndex]}}
+        </view>
+    </picker>
+</view>
+
+<button type="primary" class="btn" bindtap="bindDownloadFile">确认</button>
+
+<FtView></FtView>

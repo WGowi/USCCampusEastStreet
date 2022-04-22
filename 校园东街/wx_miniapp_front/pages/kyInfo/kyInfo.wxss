@@ -1,0 +1,37 @@
+/* pages/kyInfo/kyInfo.wxss */
+
+.section {
+    padding: 50rpx;
+}
+
+.section .section__title {
+    /* font-size: 45rpx; */
+    background-color: lightblue;
+    border: 5rpx dotted white;
+    color: white;
+    height: 75rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 42rpx;
+}
+
+.section .picker {
+    /* font-size: 45rpx; */
+    background-color: pink;
+    border: 5rpx dotted white;
+    color: black;
+    height: 120rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-size: 42rpx;
+}
+
+.btn{
+    margin-bottom: 100rpx;
+}

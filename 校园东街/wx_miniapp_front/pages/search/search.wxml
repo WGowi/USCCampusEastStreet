@@ -1,0 +1,20 @@
+<view class="search_row">
+    <input type="text" placeholder="请输入查找内容" bindinput="handleInput" />
+    <button size="mini">取消</button>
+</view>
+
+<view class="search_content">
+    <!-- <view>a:{{kind}}</view> -->
+    <view wx:if="{{kind==0}}">
+        <!-- <view>{{kind}}</view> -->
+        <navigator class="search_item" wx:for="{{detail}}" wx:key="id" url="/pages/LFDetail/LFDetail?kind=0&id={{item.id}}">{{item.title}}</navigator>
+    </view>
+    <view wx:elif="{{kind==1}}">
+        <!-- <view>{{kind}}</view> -->
+        <navigator class="search_item" wx:for="{{detail}}" wx:key="id" url="/pages/LFDetail/LFDetail?kind={{kind}}&id={{item.id}}">{{item.title}}</navigator>
+    </view>
+    <view wx:elif="{{kind==2}}">
+        <!-- <view>{{kind}}</view> -->
+        <navigator class="search_item" wx:for="{{detail}}" wx:key="id" url="/pages/InfoDetail/InfoDetail?id={{item.id}}">{{item.title}}</navigator>
+    </view>
+</view>

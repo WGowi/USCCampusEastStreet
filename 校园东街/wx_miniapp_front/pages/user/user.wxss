@@ -1,0 +1,21 @@
+.userInfo{
+    border: 1px solid black;
+    height: 250rpx;
+    display: flex;
+    background: darkgray;
+    border-radius: 75rpx;
+    justify-content: space-between;
+}
+
+.img{
+    margin-top: 50rpx;
+    margin-left: 75rpx;
+    width: 160rpx;
+    height: 160rpx;
+}
+
+.text{
+    margin-top: 50rpx;
+    margin-right: 75rpx;
+    font-size: 45rpx;
+}

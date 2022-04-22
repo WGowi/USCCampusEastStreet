@@ -1,0 +1,13 @@
+<HdView></HdView>
+<view class="info">
+    <view class="kind">{{detail.kind}}</view>
+    <view class="detail">
+    <view class="title">标题：{{detail.title}}</view>
+    <view class="department">相关部门：{{detail.department}}</view>
+    <view class="content">内容：{{detail.content}}</view>
+    <view class="reply">回复：{{detail.reply}}</view>
+    <view class="public_time">发布时间：{{detail.public_time}}</view>
+    </view>
+</view>
+<image class="img" src="{{detail.img_url}}" mode="heightFix" bindtap="clickImg" ></image>
+<FtView></FtView>

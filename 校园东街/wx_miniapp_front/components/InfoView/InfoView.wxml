@@ -1,0 +1,11 @@
+<navigator class="info-link" url="{{myUrl}}" wx:for="{{dataList}}" wx:key="id">
+    <view class="info">
+        <view class="item">
+            <image class="img" src="{{myImgUrl}}" mode="heightFix"></image>
+            <view class="text">
+                <view class="title">{{myTitle}}</view>
+                <view class="content">{{myContent}}</view>
+            </view>
+        </view>
+    </view>
+</navigator>

@@ -1,0 +1,21 @@
+<!--pages/LFDetail/LFDetail.wxml-->
+<!-- <text>pages/LFDetail/LFDetail.wxml</text> -->
+<HdView></HdView>
+<view class="info">
+    <view class="kind" wx:if="{{kind==0}}">寻物启事</view>
+    <view class="kind" wx:if="{{kind==1}}">招领启事</view>
+    <view class="content">
+        <view class="title">标题：{{detail.title}}</view>
+        <view class="description">相关描述：{{detail.description}}</view>
+        <view class="lost_address" wx:if="{{kind==1}}">遗失地点：{{detail.find_or_lost_address}}</view>
+        <view class="lost_time" wx:if="{{kind==1}}">遗失时间：{{detail.find_or_lost_time}}</view>
+        <view class="found_address" wx:if="{{kind==2}}">拾取地点：{{detail.find_or_lost_address}}</view>
+        <view class="found_time" wx:if="{{kind==2}}">拾取时间：{{detail.find_or_lost_time}}</view>
+        <view class="back_address">归还地点：{{detail.black_address}}</view>
+        <view class="contact">联系人：{{detail.contact}}</view>
+        <view class="contact">联系方式：{{detail.tel}}</view>
+        <view class="public_time">发布时间：{{detail.public_time}}</view>
+    </view>
+    <image class="img" src="{{detail.img_url}}" bindtap="clickImg" mode="heightFix" ></image>
+</view>
+<FtView></FtView>

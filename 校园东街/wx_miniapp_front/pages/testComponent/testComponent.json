@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "InfoView":"/components/InfoView/InfoView",
+    "Tabs":"/components/Tabs/Tabs"
+  }
+}

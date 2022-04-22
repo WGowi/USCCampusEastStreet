@@ -1,0 +1,4 @@
+<view class="footer">
+  <image class="pic" mode="widthFix" src="/images/logo.png"></image>
+  <view class="text">- 校园东街 -</view>
+</view>

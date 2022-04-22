@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "HdView": "/components/HdView/Hdview",
+    "FtView": "/components/FtView/FtView",
+    "PubTitle": "/components/PubTitle/PubTitle",
+    "InfoItem": "/components/InfoView/InfoView",
+    "SearchInput": "/components/SearchInput/SearchInput",
+    "LFDetail": "/components/LFDetail/LFDetail"
+  }
+}

@@ -1,0 +1,14 @@
+<HdView></HdView>
+<Tabs tabs='{{tabs}}' bindtabsItemChange='handleTabsItemChange'>
+    <SearchInput myUrl='{{search_url}}'></SearchInput>
+    <block wx:if="{{tabs[0].isActive}}">
+        <InfoItem wx:for="{{lostData}}" wx:key="id" myTitle="{{item.title}}" myContent="{{item.description}}" myImgUrl="{{item.img_url}}" myUrl="/pages/LFDetail/LFDetail?id={{item.id}}&kind=0"></InfoItem>
+    </block>
+    <block wx:elif="{{tabs[1].isActive}}">
+        <InfoItem wx:for="{{foundData}}" wx:key="id" myTitle="{{item.title}}" myContent="{{item.description}}" myImgUrl="{{item.img_url}}" myUrl="/pages/LFDetail/LFDetail?id={{item.id}}&kind=1"></InfoItem>
+    </block>
+    <block wx:elif="{{tabs[2].isActive}}">
+        <InfoItem wx:for="{{infoData}}" wx:key="id" myTitle="{{item.title}}" myContent="{{item.content}}" myImgUrl="{{item.img_url}}" myUrl="/pages/InfoDetail/InfoDetail?id={{item.id}}"></InfoItem>
+    </block>
+</Tabs>
+<FtView></FtView>

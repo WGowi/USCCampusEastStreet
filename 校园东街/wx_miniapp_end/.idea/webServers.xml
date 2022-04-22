@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2fc60006-62c6-41f8-a4c2-2663672d2871" name="aliyun">
+        <fileTransfer rootFolder="/wxminiapp" accessType="SFTP" host="112.74.52.11" port="22" sshConfigId="23be151d-cd80-401d-b65e-101bc7f9ab08" sshConfig="root@112.74.52.11:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

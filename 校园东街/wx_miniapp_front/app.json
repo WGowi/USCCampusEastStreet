@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/info/info",
+        "pages/user/user",
+        "pages/testComponent/testComponent",
+        "pages/search/search",
+        "pages/LFDetail/LFDetail",
+        "pages/InfoDetail/InfoDetail",
+        "pages/kyInfo/kyInfo"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "校园东街",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#B6B6B6",
+        "selectedColor": "#1afa29",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/shouye.png",
+                "selectedIconPath": "images/shouye-2.png"
+            },
+            {
+                "pagePath": "pages/info/info",
+                "text": "广场",
+                "iconPath": "images/iconfontguangchang.png",
+                "selectedIconPath": "images/iconfontguangchang-2.png"
+            },
+            {
+                "pagePath": "pages/kyInfo/kyInfo",
+                "text": "考研",
+                "iconPath": "images/icon-kaoshijilu.png",
+                "selectedIconPath": "images/icon-kaoshijilu-2.png"
+            }]
+
+        
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

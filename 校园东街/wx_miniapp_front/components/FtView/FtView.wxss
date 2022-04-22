@@ -1,0 +1,14 @@
+.footer {
+    padding: 30rpx 0;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.footer .pic {
+    width: 180rpx;
+}
+
+.footer .text {
+    font-size: 25rpx;
+    color: #666
+}

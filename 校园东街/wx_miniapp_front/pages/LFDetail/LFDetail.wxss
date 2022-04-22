@@ -1,0 +1,46 @@
+/* pages/LFDetail/LFDetail.wxss */
+
+.info {
+    padding: 50rpx;
+}
+
+.info .content view {
+    display: flex;
+    font-size: 35rpx;
+    border: 2rpx dotted beige;
+    border-radius: 15rpx;
+    /* height: 75rpx; */
+    /* flex: 1; */
+    margin-top: 10rpx;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-items:flex-start; */
+    flex-basis: auto;
+    text-indent: 20rpx;
+    box-shadow: silver 0px 0px 10px
+}
+
+.info .kind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64rpx;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #6bf403;
+}
+
+.info .content view:nth-of-type(odd) {
+    background: chartreuse;
+}
+
+.info .content view:nth-of-type(even) {
+    background: rgb(227, 247, 116);
+}
+
+.img {
+    display: flex;
+    margin-top: 30rpx;
+    margin: 30rpx auto;
+    height: 400rpx;
+    justify-content: center;
+    border-radius: 15rpx;
+}

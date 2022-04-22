@@ -1,0 +1,40 @@
+<HdView></HdView>
+<!-- <SearchInput></SearchInput> -->
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay interval="4000">
+    <swiper-item>
+      <image src="/images/banner1.png" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/benner2.png" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner3.png" />
+    </swiper-item>
+  </swiper>
+</view>
+<!-- <view class="major">
+  <navigator class="box" url="/pages/kyInfo/kyInfo" open-type="redirect">
+    <image class="pic" src="/images/info.png" />
+    <view class="txt">考研目录</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/lost.png" />
+    <view class="txt">失物招领</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/find.png" />
+    <view class="txt">寻物启事</view>
+  </navigator>
+  <navigator class="box" url="">
+    <image class="pic" src="/images/rent.png" />
+    <view class="txt">有话要说</view>
+  </navigator>
+</view> -->
+<view>
+  <PubTitle myTitle="最近遗失" url=""></PubTitle>
+  <InfoItem wx:for="{{lostData}}" wx:key="id" myTitle="{{item.title}}" myContent="{{item.description}}" myImgUrl="{{item.img_url}}" myUrl="/pages/LFDetail/LFDetail?id={{item.id}}&kind=0"></InfoItem>
+  <PubTitle myTitle="最近拾取" url=""></PubTitle>
+  <InfoItem wx:for="{{foundData}}" wx:key="id" myTitle="{{item.title}}" myImgUrl="{{item.img_url}}" myContent="{{item.description}}"  myUrl="/pages/LFDetail/LFDetail?id={{item.id}}&kind=1"></InfoItem>
+</view>
+<FtView></FtView>

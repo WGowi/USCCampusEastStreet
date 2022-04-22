@@ -1,0 +1,18 @@
+.info view{
+    padding: 25rpx;
+    display: flex;
+    font-size: 32rpx;
+    border: 5rpx dotted white;
+    border-radius: 45rpx;
+}
+
+.info view:nth-of-type(odd)
+{
+    background: bisque;
+    color: white;
+}
+.info view:nth-of-type(even)
+{
+    background: lavenderblush;
+    color: black;
+}
