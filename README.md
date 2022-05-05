@@ -574,7 +574,8 @@ Django通过在 Django 框架中，视图是接收 Web 请求并返回 Web 响�
 
 ### 3.2.2 视图访问
 
-浏览器可以通过视图与之绑定的url来访问相关视图，并可以通过携带参数的形式来访问视图中的特定内容![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323818.jpg)
+浏览器可以通过视图与之绑定的url来访问相关视图，并可以通过携带参数的形式来访问视图中的特定内容!
+[img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323818.jpg)
 
 图 五.10lost视图
 
@@ -593,7 +594,8 @@ Django通过在 Django 框架中，视图是接收 Web 请求并返回 Web 响�
 
 ### 3.2.3 admin面板
 
-在Django项目目录时，执行python3 manage.py createsuperuser命令，便会注册超级管理员用户。就可以通过URL IP：PORT/admin访问admin面板，即可以对数据库中数据进行可视化操作。![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323166.jpg)
+在Django项目目录时，执行python3 manage.py createsuperuser命令，便会注册超级管理员用户。就可以通过URL IP：PORT/admin访问admin面板，即可以对数据库中数据进行可视化操作。
+![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323166.jpg)
 
 图 五.13创建超级管理员
 
