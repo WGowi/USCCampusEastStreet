@@ -503,11 +503,13 @@ Django通过在 Django 框架中，视图是接收 Web 请求并返回 Web 响�
 
 ### 3.1.1 YZW爬虫运行结果展示
 
-执行YZW爬虫可见spider会从网页上抓取相应的字段，并转换为sql语句存入数据库中![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323143.jpg)
+执行YZW爬虫可见spider会从网页上抓取相应的字段，并转换为sql语句存入数据库中
+![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323143.jpg)
 
 图 五.1爬虫YZW运行情况
 
-图5.1 爬虫YZW运行情况![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323149.jpg)
+图5.1 爬虫YZW运行情况
+![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323149.jpg)
 
 图 五.2数据库表YZW截图
 
@@ -563,7 +565,8 @@ Django通过在 Django 框架中，视图是接收 Web 请求并返回 Web 响�
 
  
 
-图5.8 Django模型类![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323799.jpg)
+图5.8 Django模型类
+![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323799.jpg)
 
 图 五.9 Django通过ORM映射数据库
 
@@ -575,7 +578,8 @@ Django通过在 Django 框架中，视图是接收 Web 请求并返回 Web 响�
 
 图 五.10lost视图
 
-图5.10 lost视图![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323871.jpg)
+图5.10 lost视图
+![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323871.jpg)
 
 图 五.11在lost数据库中搜索身份证
 
@@ -599,7 +603,8 @@ Django通过在 Django 框架中，视图是接收 Web 请求并返回 Web 响�
 
 图 五.14超级管理员登录面板
 
-图5.14 超级管理员登录面板![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323511.jpg)
+图5.14 超级管理员登录面板
+![img](https://gowi-picgo.oss-cn-shenzhen.aliyuncs.com/202204222323511.jpg)
 
 图 五.15查看YZW数据库信息
 
