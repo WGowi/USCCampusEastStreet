@@ -74,7 +74,7 @@ class YZW(models.Model):
     College = models.CharField('院系所', max_length=100)  # 院系所
     Research_Direction = models.CharField('研究方向', max_length=100)  # 研究方向
     Learning_Style = models.CharField('学习方式', max_length=100)  # 学习方式
-    Instructor = models.CharField('指导老师', max_length=100)  # 指导老师
+    Instructor = models.TextField('指导老师')  # 指导老师
     Number = models.CharField('招生人数', max_length=100)  # 招生人数
     Remarks = models.TextField('备注')  # 备注
     Lesson_1 = models.CharField('课程1', max_length=100)
